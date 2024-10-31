@@ -1,0 +1,35 @@
+/* PANELS */ 
+.default-album-panels					{ height: 500px; overflow: hidden; }
+
+.default-album-panels .panel-thumb		{  width:186px; height: 480px; background:transarent; float: left; display: inline; margin: 0; }
+
+/* Album */
+.default-album-panels-loader			{ height: 200px; width: 100%; margin: 20px auto; background: url(loading.gif) center center transparent no-repeat; }
+
+.default-album-panels h2.album-category	{ border-bottom:2px solid; height:1em; margin:0 0 12px; text-transform:uppercase;}
+.default-album-panels h2.album-gallery	{ background:url("bg_transparent_black.png") repeat scroll 0 0 transparent; color:#FFFFFF; display:block; font-size:14px; margin:0; padding:7px 10px 4px; position:relative; text-align:center; text-transform:uppercase; top:266px; }
+
+.default-album-panels .album-thumbnail	{ clear:none; display:inline; float:left; margin:0; overflow:hidden; height: 480px; width:220px;}
+
+.default-album-panels .panel-active		{ width: 440px; border:3px solid #F6EC9C;  margin:2px; padding:2px; }
+.default-album-panels .panel-off		{ margin:2px 0; opacity:0.25; padding:2px 0; width:181px; }
+.default-album-panels .panel-off .default-gallery-overlay-wrapper h2	{ font-size: 10px; }
+
+
+/* OVERLAY STYLES */
+.default-album-panels .default-gallery-overlay-wrapper								{ position: static; width: 100%; margin: 0; }
+.default-album-panels .default-gallery-overlay-wrapper .overlay-wrapper				{ width: 920px; }
+.default-album-panels .default-gallery-overlay-wrapper .overlay						{ display: none; width: 920px;}
+
+.default-album-panels .default-gallery-overlay-wrapper h2							{ background:url("bg_transparent_black.png") repeat scroll 0 0 transparent; border:2px solid #FFFFFF; bottom:226px; color:#FFFFFF; display:block; margin:0 5px; padding:6px 10px 4px; position:relative; text-transform:uppercase; }
+.default-album-panels .default-gallery-overlay-wrapper h2	span.before-title		{}
+.default-album-panels .default-gallery-overlay-wrapper h2	span.after-title		{}
+
+.default-album-panels .default-gallery-overlay-wrapper .overlay h2					{ background:none repeat scroll 0 0 #FFFFFF; color:#717073; display:block; font-size:30px; height:37px; left:48px; line-height:30px; margin:0; padding:0 7px; position:absolute; text-align:left; text-transform:lowercase; top:0; }
+.default-album-panels .default-gallery-overlay-wrapper .overlay h2 span.before-title	{}
+.default-album-panels .default-gallery-overlay-wrapper .overlay h2 span.after-title	{}
+
+.default-album-panels .default-gallery-overlay-wrapper .gallery-thumbs				{ background:none repeat scroll 0 0 transparent; border:0 none; clear:both; display:none; float:none; margin:0; padding:0px; width:100%; }
+
+.default-album-panels .default-gallery-overlay-wrapper .gallery-thumbs a img		{ float:left; cursor:pointer; display:none; width:440px; margin: 0; } 
+.default-album-panels .default-gallery-overlay-wrapper button.close					{  }

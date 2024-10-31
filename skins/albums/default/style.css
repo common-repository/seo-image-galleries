@@ -1,0 +1,25 @@
+.default-album-loader					{ height: 100px; width: 100%; margin: 20px auto; background: url(loading.gif) center center transparent no-repeat; }
+
+.default-album							{ display: none; }
+
+.default-album h2.album-category		{ border-bottom:2px solid; height:1em; margin:0 0 12px; text-transform:uppercase;}
+
+.default-album .album-thumbnail			{ clear:none; display:inline; float:left; margin:15px; overflow:hidden; width:276px;}
+
+/* OVERLAY STYLES */
+.default-album .default-gallery-overlay-wrapper									{ position: static; width: 100%; }
+.default-album .default-gallery-overlay-wrapper .overlay-wrapper				{ display:none; }
+.default-album .default-gallery-overlay-wrapper .overlay						{ display: none; }
+
+.default-album .default-gallery-overlay-wrapper h2								{  }
+.default-album .default-gallery-overlay-wrapper h2	span.before-title			{}
+.default-album .default-gallery-overlay-wrapper h2	span.after-title			{}
+
+.default-album .default-gallery-overlay-wrapper .overlay h2						{ }
+.default-album .default-gallery-overlay-wrapper .overlay h2 span.before-title	{}
+.default-album .default-gallery-overlay-wrapper .overlay h2 span.after-title	{}
+
+.default-album .default-gallery-overlay-wrapper .gallery-thumbs					{ background:none repeat scroll 0 0 transparent; border:0 none; clear:both; display:none; float:none; margin:0; padding:2px; width:100%; }
+
+.default-album .default-gallery-overlay-wrapper .gallery-thumbs a img			{ display: none; width:100%; margin: 0px; cursor: pointer; } 
+.default-album .default-gallery-overlay-wrapper button.close					{  }

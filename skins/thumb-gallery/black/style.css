@@ -1,0 +1,130 @@
+.black-gallery .seo-gallery-wrap		{ width: 920px; background:none repeat scroll 0 0 #000000; border:1px solid #5A5A5A; clear:both; margin:30px auto; overflow:hidden; padding:0 0 5px; }
+
+.black-gallery .image-wrap-bg			{ background: transparent; }
+
+.black-gallery .image_wrap				{ height:614px; clear:both; margin:0 auto; float:none; text-align:center;}
+.black-gallery .image_wrap img			{ width: 100%; border: 0px; padding: 0; margin: 0; }
+
+.black-gallery .scrollers				{ background: transparent; margin:7px 0 0; }
+
+
+.black-gallery .scrollable 				{ width: 874px; float:left; height:55px; margin:0 0 0 5px; overflow:hidden; position:relative; }
+
+.black-gallery .scrollable .items 		{ width:20000em; position:absolute; clear:both; left: 0; text-align: right; }
+
+.black-gallery .scrollable img 			{ border:1px solid #5A5A5A; float:left; margin: 0px 2px; }
+
+.black-gallery .scrollable .active 		{ border:1px solid #606060; position:relative; z-index:9999; }
+
+.black-gallery a.browse 				{ display:block; width:15px; height:45px; margin:3px 0 0; cursor:pointer;  } 
+
+.black-gallery a.right					{ float: right;  background:transparent url(images/gallery_buttons.gif) no-repeat scroll 3px center; margin-right:5px;}
+.black-gallery a.right:hover 			{  }
+.black-gallery a.right:active 			{  } 
+
+.black-gallery a.left					{ float: left; background:transparent url(images/gallery_buttons.gif) no-repeat scroll -13px center; margin-left:5px; } 
+.black-gallery a.left:hover  			{  }
+.black-gallery a.left:active  			{  }
+
+.black-gallery a.up, a.down				{ background:#ffffff; float: none; margin: 10px 50px; } 
+
+/* OVERLAY STYLES */
+
+.black-gallery-overlay-wrapper									{ clear:both; margin:0 auto; position:static; width:246px; }
+.black-gallery-overlay-wrapper .overlay-wrapper					{ width: 920px; display: none;}
+.black-gallery-overlay-wrapper .overlay							{ display: none; width: 920px;}
+
+.black-gallery-overlay-wrapper h2								{ text-align: center; }
+.black-gallery-overlay-wrapper h2	span.before-title			{}
+.black-gallery-overlay-wrapper h2	span.after-title			{}
+
+.black-gallery-overlay-wrapper .overlay h2						{ background:none repeat scroll 0 0 #000000; border-left:1px solid #5A5A5A; border-top:1px solid #5A5A5A; font-size:16px; height:19px; left:0; padding:0 0 0 10px; position:absolute; text-align:left; text-transform:uppercase; top:-9px; width:816px; }
+.black-gallery-overlay-wrapper .overlay h2 span.before-title	{}
+.black-gallery-overlay-wrapper .overlay h2 span.after-title		{}
+
+.black-gallery-overlay-wrapper .gallery-thumbs					{ display: none; border:0px; background: #fff; display:block; float:none; margin:20px auto 0; padding:0; width:204px; }
+.black-gallery-overlay-wrapper .gallery-thumbs a				{ display: block; width: 100%; height: 100%; }
+
+.black-gallery-overlay-wrapper .gallery-thumbs a img			{ width: 200px; margin:0; cursor: pointer;  }
+.black-gallery-overlay-wrapper button.close						{  outline: none; cursor: pointer; background:#000; border-top:1px solid #5a5a5a; border-right:1px solid #5a5a5a; border-bottom:0px solid #5a5a5a;color: #bababa; height: 20px; width: 100px; position: absolute; right:-2px; top: 11px; }
+
+/*
+REPEAT ALL WITH .basicblack for skin shortcut
+*/
+
+.basicblack-gallery .seo-gallery-wrap		{ width: 920px; background:none repeat scroll 0 0 #000000; border:1px solid #5A5A5A; clear:both; margin:30px auto; overflow:hidden; padding:0 0 5px; }
+
+.basicblack-gallery .image-wrap-bg			{ background: transparent; }
+
+.basicblack-gallery .image_wrap				{ height: 614px; clear:both; margin:0 auto; float:none; text-align:center;}
+.basicblack-gallery .image_wrap img			{ width: 100%; border: 0px; padding: 0; margin: 0; }
+
+.basicblack-gallery .scrollers				{ background: transparent; margin:7px 0 0; }
+
+
+.basicblack-gallery .scrollable 			{ width: 874px;float:left; height:55px; margin:0 0 0 5px; overflow:hidden; position:relative; }
+
+.basicblack-gallery .scrollable .items 		{ width:20000em; position:absolute; clear:both; left: 0; text-align: right; }
+
+.basicblack-gallery .scrollable img 		{ border:1px solid #5A5A5A; float:left;margin: 0px 2px;  }
+
+.basicblack-gallery .scrollable .active 	{ border:1px solid #606060; position:relative; z-index:9999; }
+
+.basicblack-gallery a.browse 				{ display:block; width:15px; height:45px; margin:3px 0 0; cursor:pointer;  } 
+
+.basicblack-gallery a.right					{ float: right;  background:transparent url(images/gallery_buttons.gif) no-repeat scroll 3px center; margin-right:5px;}
+.basicblack-gallery a.right:hover 			{  }
+.basicblack-gallery a.right:active 			{  } 
+
+.basicblack-gallery a.left					{ float: left; background:transparent url(images/gallery_buttons.gif) no-repeat scroll -13px center; margin-left:5px; } 
+.basicblack-gallery a.left:hover  			{  }
+.basicblack-gallery a.left:active  			{  }
+
+.basicblack-gallery a.up, a.down				{ background:#ffffff; float: none; margin: 10px 50px; } 
+
+/* OVERLAY STYLES */
+.basicblack-gallery-overlay-wrapper									{ clear:both; margin:0 auto; position:static; width:246px; }
+.basicblack-gallery-overlay-wrapper .overlay-wrapper				{ width: 920px;display: none; }
+.basicblack-gallery-overlay-wrapper .overlay						{ display: none; width: 920px;}
+
+.basicblack-gallery-overlay-wrapper h2								{ text-align: center; }
+.basicblack-gallery-overlay-wrapper h2	span.before-title			{}
+.basicblack-gallery-overlay-wrapper h2	span.after-title			{}
+
+.basicblack-gallery-overlay-wrapper .overlay h2						{ background:none repeat scroll 0 0 #000000; border-left:1px solid #5A5A5A; border-top:1px solid #5A5A5A; font-size:16px; height:19px; left:0; padding:0 0 0 10px; position:absolute; text-align:left; text-transform:uppercase; top:-9px; width:812px; }
+.basicblack-gallery-overlay-wrapper .overlay h2 span.before-title	{}
+.basicblack-gallery-overlay-wrapper .overlay h2 span.after-title	{}
+
+.basicblack-gallery-overlay-wrapper .gallery-thumbs					{ display: none; border:0px; background: #fff; display:block; float:none; margin:20px auto 0; padding:0; width:204px; }
+.basicblack-gallery-overlay-wrapper .gallery-thumbs a				{ display: block; width: 100%; height: 100%; }
+
+.basicblack-gallery-overlay-wrapper .gallery-thumbs a img			{ width: 200px; margin: 0; cursor: pointer;  }
+.basicblack-gallery-overlay-wrapper button.close					{  outline: none; cursor: pointer; background:#000; border-top:1px solid #5a5a5a; border-left:1px solid #5a5a5a;border-right:1px solid #5a5a5a; border-bottom:0px solid #5a5a5a;color: #bababa; height: 20px; width: 100px; position: absolute; right: -2px; top: 11px; }
+
+/* 1000px wide single column - uses 920px wide gallery */
+
+.gallery-wrapper-large							{ width: 920px; } 
+.gallery-wrapper-large .scrollable 				{ width: 864px; }
+.gallery-wrapper-large .scrollable img			{ width: 66px; margin:2px 2px 0; }
+.gallery-wrapper-large .scrollable img.active	{ width: 69px; margin-top:0px; }
+
+/* 960px wide single column - uses 880px wide gallery */
+.basicblack-gallery .gallery-wrapper-medium, .black-gallery .gallery-wrapper-medium	{ width: 880px;}
+.basicblack-gallery .gallery-wrapper-medium .image_wrap, .black-gallery .gallery-wrapper-medium .image_wrap	{height: 586px;}
+
+.gallery-wrapper-medium .scrollable 			{ width:831px; margin-left:3px; }
+
+.gallery-wrapper-medium .scrollable img			{ width:40px; width: auto;  margin:5px 4px 0 0; }
+
+.gallery-wrapper-medium .scrollable img.active	{ width:40px; width: auto; margin-top:4px; }
+
+/* 700px wide content with sidebar - uses 620px wide gallery */
+
+.basicblack-gallery .gallery-wrapper-small, .black-gallery .gallery-wrapper-small	{  width: 620px;   }
+.basicblack-gallery .gallery-wrapper-small .image_wrap, .black-gallery .gallery-wrapper-small .image_wrap	{  height: 414px; }
+
+.gallery-wrapper-small .scrollable 				{ margin:0; width:574px; }
+
+.gallery-wrapper-small .scrollable img			{ width:40px; width: auto; margin: 5px 2px 0; }
+
+.gallery-wrapper-small .scrollable img.active	{ width:40px; width: auto; margin-top:4px; }

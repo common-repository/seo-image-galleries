@@ -1,0 +1,9 @@
+.fading-panels							{}
+
+.fading-panels-album					{ height: 480px; overflow: hidden; }
+.fading-panels-album .album-thumbnail	{ display: none; height: 480px; width:440px;}
+.fading-panels-album .panel-thumb		{ opacity:.25; width:166px; height: 480px; background:transarent; float: left; display: inline; margin: 0; }
+.fading-panels-album .current			{ display:none;  }
+
+.fading-panels-album .default-album .album-thumbnail	{ margin: 0; }
+.fading-panels-album .default-album .default-gallery-overlay-wrapper .gallery-thumbs a img { height:480px; }

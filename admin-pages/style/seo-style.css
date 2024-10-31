@@ -1,0 +1,142 @@
+#seo-galleries 					{ color: #000000; font-family:"Century Gothic", Helvetica, Arial, Sans-Serif; letter-spacing:0.4px;}
+
+#seo-galleries .pad5			{ padding: 5px; }
+#seo-galleries .pad10			{ padding: 10px; }
+#seo-galleries .pad15			{ padding: 15px; }
+
+#seo-galleries h2					{ font-family:"century gothic"; font-style: normal; margin:0 9px 14px; padding:0; }
+#seo-galleries h2.mainTitle		{ margin:0 0px 14px; padding:0; }
+
+#seo-galleries h3 span			{ float:left; margin:0; width:34px;display: block; }
+
+.gallery-quick-links h3			{ background: transparent; }
+#addNew.submit						{ margin: 0; padding: 0;}
+#addNew.submit input				{ cursor: text; }
+#addNew.submit input[type="Submit"]	{ cursor: pointer; }
+
+#seo-galleries ul#seo-menu			{ background:none repeat scroll 0 0 #E5E5E5; border:1px solid #D5D5D5;clear:both; height:auto; margin:0 15px 10px; overflow:hidden; padding:5px 0; width:auto; }
+#seo-galleries ul#seo-menu li		{ float: left; display: inline; margin:0 10px; }
+#seo-galleries ul#seo-menu li h3	{ background: transparent; }
+
+#seo-galleries .pane ul.seo-inner-menu		{}
+#seo-galleries .pane ul.seo-inner-menu li	{ clear:none; float: left; display: inline; background: transparent; margin:0 40px 0 0;}
+
+#seo-galleries .pane ul li	{ background:none repeat scroll 0 0 #EAF5F9; border:1px solid #CDE3EC; }
+
+#seo-galleries .pane ul						{}
+#seo-galleries .pane ul li					{ overflow: hidden; display: block; clear: both; margin:2px 0px;}
+#seo-galleries .pane ul li img.thumbnails,#seo-galleries .pane ul li p.thumbnails	{ border:1px solid #BABABA; padding:2px; width:70px; margin:4px 8px; float: left; display: inline; }
+#seo-galleries .pane ul li img.hide			{ border: 1px solid transparent;}
+
+#seo-galleries .pane ul li p				{ padding: 0; margin: 5px 0 0; }
+#seo-galleries #panels .pane ul li 			{ padding:0 7px 5px; }
+
+.gallery-quick-links	{ float: left; display: inline; width:215px; }
+.gallery-code-titles	{ float: left; display: inline; width:87px;}
+.gallery-code			{ float: left; display: inline;  }
+
+#seo-galleries .pane .gallery-code p			{ background:none repeat scroll 0 0 #FEF8E1; border:1px solid #E8C996; color:#994727;font-family:helvetica; font-size:12px; letter-spacing:1px; margin:3px 0 0; padding:3px 15px; }
+
+#seo-galleries ul#seo-menu li a	{ display:block; -moz-border-radius-bottomleft:4px; -moz-border-radius-bottomright:4px; -moz-border-radius-topleft:4px; -moz-border-radius-topright:4px; padding:4px 7px 5px; }
+
+img.thumbnails 			{ width: 100px; border:1px solid #9A9A9A; margin:0 20px; }
+
+.pane img.hide			{ border: 1px solid transparent; }
+
+#seo-galleries .section				{ clear: both; overflow: hidden; height: auto; float: none; margin: 0; padding: 0; }
+#seo-galleries .left					{ float: left; display: inline; }
+
+.admin-options-section		{ display:inline; float:left; text-align:left; padding:0 5px 13px; margin:0;}
+
+.save						{ clear: both; margin:10px 0; }
+.save p.submit				{ margin: 0; padding:6px 0 0; }
+
+textarea, input[type="text"], input[type="password"], input[type="file"], input[type="button"], input[type="submit"], input[type="reset"], select	
+
+							{ border-color: #bababa; }
+									
+#seo-galleries a.delete, #seo-galleries input[type="submit"].delete 	{ color:#BC0B0B; font-weight: bold; }						
+
+/* CATEGORIES PAGE */
+
+#seo-galleries .pane ul.editor-links, #seo-galleries .pane div.editor-links				{ clear:both; display:block; height:27px; background:url("../../../../../../wp-admin/images/gray-grad.png") repeat-x scroll left top #DFDFDF;}
+
+#seo-galleries .pane div.editor-links			{border-left:1px solid #CACACA;border-right:1px solid #CACACA; }
+
+#seo-galleries .pane ul.editor-links li			{ margin:0 0 5px; display: inline; float: left; clear: none; padding:4px 10px 0; height:20px; background:none repeat scroll 0 0 transparent; border:0 none;}				
+
+#seo-galleries .pane ul.editor-links li.edit-title		{ width: 140px; }
+#seo-galleries .pane ul.editor-links li.edit-number		{ width: 75px; }
+#seo-galleries .pane ul.editor-links li.edit-link		{  }
+#seo-galleries .pane ul.editor-links li.delete-link		{ width: 40px; }
+#seo-galleries .pane ul.editor-links li.delete-link a	{ color: #BC0B0B; }
+
+#seo-galleries .postbox .pane input[type="text"], #seo-galleries .postbox .pane input[type="submit"]		{ padding:0 2px; }
+
+/* DISPLAY INSTRUCTIONS PAGE */
+
+#seo-galleries .pane ul.display-list						{ display: block; clear: both; overflow:hidden; margin: 0 0 4px 0; }
+#seo-galleries .pane ul#display-header.display-list			{ border-bottom: 1px solid #000000; color: #000000; font-weight: bold; }
+
+#seo-galleries .pane ul.display-list li						{ display: inline; float: left; clear:none; background: transparent; border: 0px; }
+#seo-galleries .pane ul.display-list li.display-name		{ width:168px;  border: 0; }
+#seo-galleries .pane ul.display-list li.display-shortcode	{ width:220px;}
+#seo-galleries .pane ul.display-list li.display-template	{ width:220px;}
+
+
+/* EDIT GALLERY PAGE */
+
+.current-images				{ padding: 10px 0 ; overflow:hidden;}
+
+.image-order				{ width: 40px; text-align:center; color: #8a8a8a;}
+.image-reorder				{ width: 60px; text-align:center; }
+
+.image-thumb				{ text-align:center; width:128px; }
+.image-delete				{ text-align:center; width: 53px; }
+.image-details				{ width: 450px; }
+.image-update				{ width: 100px; text-align:center; }
+.image-list 				{ border-left:1px solid #D5D5D5; overflow:hidden; padding:5px; }
+
+.image-menu	.image-list		{ height: 20px; border-bottom:1px solid #BABABA; border-left:1px solid transparent; }
+.image-list p				{ padding: 0 0 4px 0; margin: 0px; }
+
+#seo-galleries form p			{ padding: 0px; }
+#seo-galleries .postbox form	{ padding: 15px; }
+#accordion 							{ }
+
+/* accordion header */
+#accordion div.editor-links			{ cursor:pointer; }
+
+#accordion div.editor-links p		{ padding:5px 10px; margin: 0; }
+#accordion div.editor-links p span	{ color: #21759B; font-size: 11px; }
+#accordion div.current p span		{ display: none; }
+
+/* currently active header */
+#accordion div.current p			{ color:#21759B; }
+div.pane #accordion div.current p	{ cursor:default; font-size:16px; padding:2px 10px 0; }
+
+/* accordion pane */
+
+div.pane 							{ color:#000000; font-size:12px; margin:0 20px; padding:15px; overflow:hidden;}
+#accordion div.pane					{ display:none; padding:2px 10px; overflow:hidden; border-top:1px solid #DDDDDD;}
+
+div.pane #accordion div.pane		{ background:none repeat scroll 0 0 #DBEDF5; }
+
+#accordion.categoryPage div.pane	{ display:block; padding:15px 0; }
+
+/* Tabs Setup */
+
+#seo-galleries #panels				{ clear:both; margin: 0 20px;overflow:hidden; border-left:1px solid #000000; border-right:1px solid #000000; border-bottom:1px solid #000000;}
+#seo-galleries #panels .pane		{  margin-top:12px; }
+
+#tabs								{ border-bottom:1px solid #8A8A8A; clear:both; height:25px; margin:0 20px; }
+.postbox h3							{}
+.postbox #tabs h3					{ color: #9a9a9a; background: #dadada;  margin: 0 2px 0 0; height: 10px; width: auto; float: left; padding: 2p 4px; border-top: 1px solid #7a7a7a; border-left: 1px solid #7a7a7a; border-right: 1px solid #7a7a7a;}
+.postbox #tabs h3.current			{ height:11px; color: #000000; border-top: 1px solid #222222; border-left: 1px solid #222222; border-right: 1px solid #222222; background:none repeat scroll 0 0 #FFFFFF; }
+
+
+/* modal-test */
+
+.modal 		{ background-color:#DBEDF5; display:none; padding:15px; text-align:left; border:2px solid #3F83A1; -moz-border-radius:6px; -webkit-border-radius:6px; -moz-box-shadow: 0 0 50px #ccc; -webkit-box-shadow: 0 0 50px #ccc; } 
+ 
+.modal h2 	{ background:url(/img/global/info.png) 0 50% no-repeat; margin:0px; padding:10px 0 10px 45px; border-bottom:1px solid #333; font-size:20px; }
